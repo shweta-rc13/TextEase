@@ -57,8 +57,8 @@ document.execCommand("copy")
 </div>
 <div className="container my-3">
 <h2>Your Text Summary</h2>
-<p>{text.split(" ").length} words and {text.length} characters</p>
-<p> {0.008 * text.split(" ").length} Minutes to read</p>
+<p>{text.split(" ").length} <span> words</span> and {text.length} <span>characters</span></p>
+<p> {0.008 * text.split(" ").length} <span>Minutes to read</span></p>
 <h2>Preview</h2>
 <p>{text}</p>
 </div>
