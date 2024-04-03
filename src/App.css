@@ -42,4 +42,67 @@ p span{
     padding: 10px ;
     color: #333;
   }
+
+  body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.253), rgba(0, 89, 255, 0.303));
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: Arial, sans-serif; /* Added a generic font-family */
+}
+
+.form-control {
+    color: white;
+}
+
+p span {
+    font-size: 1rem; /* Adjusted font size for smaller screens */
+    background-color: rgb(195, 133, 107);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.container {
+    margin: 5% 10%; /* Changed margin to percentage for better responsiveness */
+    max-width: 800px; /* Added max-width to limit container width */
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%; /* Ensures textarea doesn't overflow container */
+    padding: 10px; /* Adjusted padding for smaller screens */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+    box-sizing: border-box; /* Include padding and border in width and height */
+}
+
+.btn {
+    margin: 10px 5px; /* Adjusted margin for smaller screens */
+}
+
+.my-3 {
+    margin-top: 15px; /* Adjusted margin for smaller screens */
+    margin-bottom: 15px; /* Adjusted margin for smaller screens */
+}
+
+h1, h2 {
+    padding: 10px;
+    color: #333;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 5% 5%; /* Adjusted margin for smaller screens */
+    }
+
+    .btn {
+        margin: 5px; /* Adjusted margin for smaller screens */
+    }
+
+    h1, h2 {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+}
+
   
